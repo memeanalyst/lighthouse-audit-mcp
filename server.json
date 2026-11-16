@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/lighthouse-audit-mcp",
+  "title": "Lighthouse Audit",
+  "description": "Run Google Lighthouse audits on any URL \u2014 performance, SEO, accessibility scores.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/lighthouse-audit-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/lighthouse-audit"
+    }
+  ]
+}

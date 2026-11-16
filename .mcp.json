@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "lighthouse-audit": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/lighthouse-audit"
+    }
+  }
+}
